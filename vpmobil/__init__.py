@@ -13,11 +13,11 @@ A python wrapper package for interacting with a stundenplan24.de substitution pl
 from .fetcher import Vertretungsplan
 from .parser import VpDay, Klasse, Stunde
 
-__all__ = ['VpMobil', 'Vertretungsplan', 'VpDay', 'Klasse', 'Stunde']
+__all__ = ['workflow', 'Vertretungsplan', 'VpDay', 'Klasse', 'Stunde']
     # Enthält alle Symbole, die bei "from vpmobil import" verfügbar sind
     # Enthält alle Symbole, die bei "from vpmobil import *" importiert werden
 
-class VpMobil:
+class workflow:
     """
     Enthält nützliche Funktionen für den Arbeitsablauf
 

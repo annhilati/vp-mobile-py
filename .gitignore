@@ -2,7 +2,7 @@
 *.env
 
 # Python Build
-vpmobil.egg-info/
+**.egg-info/
 build/
 dist/
 
